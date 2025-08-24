@@ -34,11 +34,10 @@ project/
 │   ├── evaluation.py        # PerformanceEvaluator: metrics & reporting
 │   └── simulation_enhanced.py # Enhanced simulation features
 ├── notebooks/               # Analysis suite
-│   ├── 01_eda.ipynb         # Exploratory data analysis
+│   ├── 01-1_eda.ipynb         # Exploratory data analysis
+│   ├── 01-2_comprehensive_eda.ipynb # Comprehensive analysis
 │   ├── 02_modeling.ipynb    # Model development & training
-│   ├── 03_simulation.ipynb  # Trading simulation analysis
-│   ├── 04_comprehensive_eda.ipynb # Comprehensive analysis
-│   └── 06_executive_summary.ipynb # Business summary
+│   └── 03_simulation.ipynb  # Trading simulation analysis
 ├── data/                    # Data storage
 │   ├── raw/                 # Original market data (API downloads)
 │   ├── processed/           # Engineered features (unified dataset)
